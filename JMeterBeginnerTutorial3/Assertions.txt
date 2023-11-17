@@ -1,0 +1,8 @@
+Assertions = check on the response
+
+-Response assertion
+-Duration assertion
+-Size assertion
+-HTML assertion
+-XML assertion
+-Xpath assertion
