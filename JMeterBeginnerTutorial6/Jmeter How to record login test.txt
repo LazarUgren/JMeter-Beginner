@@ -1,0 +1,13 @@
+How to record login test in Jmeter
+
+Step 1 - add blazemeter plugin to chrome browser
+
+Step 2 - start blazemeter plugin and login to blaze meter
+
+Step 3 - record your scenario - stop recording - export .jmx
+
+Step 4 - import .jmx file in Jmeter
+
+Step 5 - add listeners
+
+Step 6 - run and validate
