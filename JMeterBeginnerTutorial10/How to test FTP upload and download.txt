@@ -1,0 +1,11 @@
+How to test FTP upload and download
+
+Step 1 : Add a FTP request Sampler
+
+Step 2 : Add FTP connection parameters
+
+https://test.rebex.net/
+
+Step 3 : Test a FTP Get and validate
+
+Step 4 : Test a FTP PUT and validate
