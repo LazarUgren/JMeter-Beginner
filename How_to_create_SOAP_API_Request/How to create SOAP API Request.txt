@@ -1,0 +1,14 @@
+JMeter API Testing
+
+How to create a SOAP API Request
+
+1. How to add Request Sampler
+2. How to add Headers
+3. How to add Authorisation
+4. How to add Body
+5. How to add Assertations
+6. How to run and check results
+
+Calculator web service
+
+https://ecs.syr.edu/faculty/fawcett/Handouts/cse775/code/calcWebService/Calc.asmx
