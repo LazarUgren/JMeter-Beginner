@@ -1,0 +1,13 @@
+How to create assertions for JDBC (Database) Test Plan
+
+note* This is continuation of How to create database test plan (JMeter beginner tutorial8)
+
+Step 1 : Add a Response Assertion
+
+Step 2 : Add variable names in JDBC Request
+
+Step 3 : Add Jmeter Variable and Pattern to Test
+
+Step 4 : Add Listener Assertion Results
+
+Step 5 : Run and Validate
