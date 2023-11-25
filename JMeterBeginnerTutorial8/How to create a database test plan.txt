@@ -1,0 +1,13 @@
+How to create a database test plan
+
+Step 1 - Add mysql jdbc jar to Jmeter lib folder
+
+Step 2 - Add Thread Group
+
+Step 3 - Add JDBC Conn config I provide the details of our DB
+
+Step 4 - Add JDBC Request
+
+Step 5 - Add Listeners
+
+Step 6 - Run and validate
