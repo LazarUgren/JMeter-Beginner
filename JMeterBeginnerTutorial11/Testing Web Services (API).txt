@@ -1,0 +1,51 @@
+Testing Web Services (API)
+
+
+API -> Application Programming Interface
+
+Restaurant - table - <--- WAITER ---> kitchen
+
+makemytrip.com
+
+WebServices - client <--- API ---> server
+
+REST and SOAP
+
+How to test REST API
+-----------------------
+
+Step 1 : Add HTTP Request Sampler
+	 OR
+	 Add SOAP/XML-RPC Request Sampler
+
+Step 2 : Add REST API details
+
+(https://openweathermap.org/appid)
+
+Api key -> 5dbb724e560203adb0efb618e14ba778
+
+API call
+
+https://api.openweathermap.org/data/2.5/weather?q=Belgrade&appid=5dbb724e560203adb0efb618e14ba778
+
+https://api.openweathermap.org   ---> server name or IP
+
+/data/2.5/weather   ---> path
+
+?q=Belgrade&appid=5dbb724e560203adb0efb618e14ba778    ---> parameters
+
+Step 3 : Run and Validate
+
+
+
+How to test SOAP API
+--------------------------
+
+Step 1 : Add SOAP/XML-RPC Request Sampler
+
+Step 2 : Add details of the Soap API Request
+
+Step 3 : Run and Validate
+
+
+
