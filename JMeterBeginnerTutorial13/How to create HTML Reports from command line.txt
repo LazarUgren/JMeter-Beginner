@@ -1,0 +1,13 @@
+How to create HTML Reports from command line
+
+Step 1 : Create Test Plan and save it (and close).
+
+Step 2 : Open command line and change dir to jmeter/bin
+
+Step 3 : Execute command: (-create report at the end of the test command: )
+		jmeter -n -t "location of the jmeter script" -l "location of results file" -e -o "loacation of the output folder"
+
+ 
+-create report from a standalone csv file command: jmeter -g "location of csv file" -o "location of output folder"
+
+Step 4 : Analyse HTML (Dashboard) Reports
