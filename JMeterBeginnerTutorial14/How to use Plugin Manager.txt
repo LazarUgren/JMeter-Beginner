@@ -1,0 +1,17 @@
+How to use Plugin Manager
+
+
+Quick and Easy
+-------------------
+Install new plugins
+Remove old plugins
+Upgrade existing plugins
+Information on plugins
+
+
+
+
+Step 1 : Download jmeter plugin manager jar and add to jmeter/lib/ext folder
+		(restart jmeter)
+
+Step 2 : Find plugin manager under options menu
