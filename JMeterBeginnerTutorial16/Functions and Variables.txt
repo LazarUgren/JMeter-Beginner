@@ -1,0 +1,20 @@
+Functions and Variables
+
+Functions : any method than can populate a field in any other element of a test plan
+	syntax : ${__functionName}
+		 ${__functionName(arg:var1,var2...)}
+
+Variable : container that can store a value which can be referenced by any other element within the 
+thread. (local to a thread -> every variable go within one thread)
+	syntax : ${variableName}
+
+function - caseSensitive
+		camelCasing - exempleName
+
+
+Functions : 
+-------------
+1. log -> -${__log("message")}
+2. time -> -${__time(dd MM YYYY HH mm ss)}
+3. threadNum -> -${__threadNum}
+4. intSum
