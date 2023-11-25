@@ -1,0 +1,26 @@
+How to run jmeter from command line (non GUI mode)
+
+Why to execute non-gui mode?
+-gui consumes more resources/memory
+-gui - not recommended for heavy load testing
+-command line - can be integrated with other systems (Jenkins/CI ...)
+
+
+Step 1 - Go to command line -> go to jmeter -> bin
+
+Step 2 - command
+	jmeter -n -t [location of your jmeter test script] -l [location of the result file]
+
+		-n -> non gui mode
+		-t -> location of jmeter script
+		-l -> location of result file
+
+[example command]
+C:\Program Files\apache-jmeter-5.5\bin>jmeter -n -t C:\Users\pc\Desktop\Repositorijumi\Jmeter\JMeter-Beginner\JMeterBeginnerTutorial9\JmeterComandLineTest.jmx -l C:\Users\pc\Desktop\Repositorijumi\Jmeter\JMeter-Beginner\JMeterBeginnerTutorial9\result.csv
+
+
+
+
+jmeter -h
+
+jmeter -?
